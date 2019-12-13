@@ -6,6 +6,7 @@ setup(name='{{cookiecutter.project_name}}',
       packages=find_packages(),
       install_requires=[
       ],
+      entry_points={'console_scripts': ['{{cookiecutter.project_name}}={{cookiecutter.project_name}}:main']},
       extras_require={
           'test': [
               'pytest'
