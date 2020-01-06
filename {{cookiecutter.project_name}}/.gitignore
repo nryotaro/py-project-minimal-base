@@ -4,3 +4,4 @@
 .DS_Store
 # Python
 *venv
+.python-version
